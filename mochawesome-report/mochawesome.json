@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T09:57:20.029Z",
-    "end": "2023-06-07T09:57:20.042Z",
-    "duration": 13,
+    "start": "2023-06-07T18:34:19.113Z",
+    "end": "2023-06-07T18:34:19.123Z",
+    "duration": 10,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2834a2ba-c32e-4e89-9c7a-d24f552d3ac0",
+      "uuid": "6ee371d1-b241-4462-a345-dfdf61edf254",
       "title": "",
       "fullFile": "C:\\Users\\Dorottya_Pecsi\\Documents\\Practice\\demoqa\\test\\numbers-validator\\isNumberEven.spec.js",
       "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7ef26d90-8413-4e7e-a33e-ca83fd08da43",
+          "uuid": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
           "title": "isNumberEven positive test",
           "fullFile": "C:\\Users\\Dorottya_Pecsi\\Documents\\Practice\\demoqa\\test\\numbers-validator\\isNumberEven.spec.js",
           "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "validator = new NumbersValidator();",
               "err": {},
-              "uuid": "4faaa29b-da9b-4498-8d2a-5d4dc079baa6",
-              "parentUUID": "7ef26d90-8413-4e7e-a33e-ca83fd08da43",
+              "uuid": "efb6e7da-e44f-4817-b104-ab58059ee05d",
+              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
               "isHook": true,
               "skipped": false
             }
@@ -65,8 +65,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "68d65cb5-ef4f-4488-bace-85ade1306e10",
-              "parentUUID": "7ef26d90-8413-4e7e-a33e-ca83fd08da43",
+              "uuid": "d947ab07-157c-4b37-8496-f0cea7b040e7",
+              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
               "isHook": true,
               "skipped": false
             }
@@ -85,8 +85,8 @@
               "context": null,
               "code": "const validationResults = validator.isNumberEven(4);\nexpect(validationResults).to.be.equal(true);",
               "err": {},
-              "uuid": "7796c5a2-cc1f-4d00-a105-20161eb9f93a",
-              "parentUUID": "7ef26d90-8413-4e7e-a33e-ca83fd08da43",
+              "uuid": "460a2d33-7ae7-405a-91e7-f40a1a934d4f",
+              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
               "isHook": false,
               "skipped": false
             },
@@ -94,33 +94,33 @@
               "title": "should throw an error when provided a string",
               "fullTitle": "isNumberEven positive test should throw an error when provided a string",
               "timedOut": false,
-              "duration": 1,
+              "duration": 2,
               "state": "passed",
               "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "expect(() => {\n  validator.isNumberEven('4');\n}).to.throw('[4] is not of type \"Number\"; it is of type \"string\"') ;",
+              "code": "expect(() => {\n  validator.isNumberEven('4');\n}).to.throw('[4] is not of type \"Number\"; it is of type \"string\"');",
               "err": {},
-              "uuid": "fb7e25cc-b452-40d8-b337-4bdd8f768000",
-              "parentUUID": "7ef26d90-8413-4e7e-a33e-ca83fd08da43",
+              "uuid": "f1551321-73d6-4e0d-994f-022e58296fbc",
+              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7796c5a2-cc1f-4d00-a105-20161eb9f93a",
-            "fb7e25cc-b452-40d8-b337-4bdd8f768000"
+            "460a2d33-7ae7-405a-91e7-f40a1a934d4f",
+            "f1551321-73d6-4e0d-994f-022e58296fbc"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
-          "_timeout": 2000
+          "_timeout": 30000
         }
       ],
       "passes": [],
@@ -130,7 +130,7 @@
       "duration": 0,
       "root": true,
       "rootEmpty": true,
-      "_timeout": 2000
+      "_timeout": 30000
     }
   ],
   "meta": {
