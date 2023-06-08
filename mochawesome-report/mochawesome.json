@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T18:34:19.113Z",
-    "end": "2023-06-07T18:34:19.123Z",
-    "duration": 10,
+    "start": "2023-06-08T05:28:56.911Z",
+    "end": "2023-06-08T05:28:56.917Z",
+    "duration": 6,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6ee371d1-b241-4462-a345-dfdf61edf254",
+      "uuid": "d7250332-c893-4de6-a0a4-4d14935d0657",
       "title": "",
       "fullFile": "C:\\Users\\Dorottya_Pecsi\\Documents\\Practice\\demoqa\\test\\numbers-validator\\isNumberEven.spec.js",
       "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
+          "uuid": "de55dcfa-7e8b-4caa-ba30-e88c195d583f",
           "title": "isNumberEven positive test",
           "fullFile": "C:\\Users\\Dorottya_Pecsi\\Documents\\Practice\\demoqa\\test\\numbers-validator\\isNumberEven.spec.js",
           "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "validator = new NumbersValidator();",
               "err": {},
-              "uuid": "efb6e7da-e44f-4817-b104-ab58059ee05d",
-              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
+              "uuid": "f8485bf3-e212-44d5-ac83-71dc4b2d89c2",
+              "parentUUID": "de55dcfa-7e8b-4caa-ba30-e88c195d583f",
               "isHook": true,
               "skipped": false
             }
@@ -65,8 +65,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "d947ab07-157c-4b37-8496-f0cea7b040e7",
-              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
+              "uuid": "6cd2ebdf-3a50-440d-9008-d2fa8c74bb44",
+              "parentUUID": "de55dcfa-7e8b-4caa-ba30-e88c195d583f",
               "isHook": true,
               "skipped": false
             }
@@ -85,8 +85,8 @@
               "context": null,
               "code": "const validationResults = validator.isNumberEven(4);\nexpect(validationResults).to.be.equal(true);",
               "err": {},
-              "uuid": "460a2d33-7ae7-405a-91e7-f40a1a934d4f",
-              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
+              "uuid": "e5ed266b-d407-4d97-9fb0-73dec3984258",
+              "parentUUID": "de55dcfa-7e8b-4caa-ba30-e88c195d583f",
               "isHook": false,
               "skipped": false
             },
@@ -94,7 +94,7 @@
               "title": "should throw an error when provided a string",
               "fullTitle": "isNumberEven positive test should throw an error when provided a string",
               "timedOut": false,
-              "duration": 2,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -103,21 +103,21 @@
               "context": null,
               "code": "expect(() => {\n  validator.isNumberEven('4');\n}).to.throw('[4] is not of type \"Number\"; it is of type \"string\"');",
               "err": {},
-              "uuid": "f1551321-73d6-4e0d-994f-022e58296fbc",
-              "parentUUID": "840c0ad9-4c23-4053-8078-41dfc1b9fa19",
+              "uuid": "be4df129-de48-4afa-a8f9-5bebc3c8a05e",
+              "parentUUID": "de55dcfa-7e8b-4caa-ba30-e88c195d583f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "460a2d33-7ae7-405a-91e7-f40a1a934d4f",
-            "f1551321-73d6-4e0d-994f-022e58296fbc"
+            "e5ed266b-d407-4d97-9fb0-73dec3984258",
+            "be4df129-de48-4afa-a8f9-5bebc3c8a05e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3,
+          "duration": 2,
           "root": false,
           "rootEmpty": false,
           "_timeout": 30000
